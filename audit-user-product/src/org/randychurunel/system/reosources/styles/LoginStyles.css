@@ -1,0 +1,36 @@
+
+.etiqueta{
+    -fx-font-size: 19px;
+    -fx-text-fill: #f0f4f8;
+}
+
+
+.campo{
+    -fx-border-color:#f0f4f8;
+    -fx-text-fill:#aec3d6;
+    -fx-background-color: #37474f; 
+    -fx-border-width:2px;
+    -fx-border-radius:5px;
+    -fx-background-radius: 5px;
+}  
+    
+
+
+.link{
+    -fx-text-fill:#42a5f5;
+    
+    
+}
+
+.link:hover{
+    -fx-text-fill:#f0f4f8;
+}
+
+.link:pressed{
+    
+    -fx-text-fill:#ffff88;
+}
+#btn-login{
+    
+    
+}
