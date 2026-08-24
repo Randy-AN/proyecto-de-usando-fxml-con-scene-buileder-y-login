@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+ HOLA DESDE RAMA MAIN
+=======
+HOLA A TODOS DESDE RAMA RUDY
+>>>>>>> 5bc040a (fix: Se escribio saludo en Texto.txt)
