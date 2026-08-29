@@ -6,6 +6,6 @@ package org.randychurunel.system.repository;
 
 import org.randychurunel.system.model.User;
 
-public class UserInteface {
-    public void create(User user){};
+public interface UserInteface {
+  void create (User user);
 }

@@ -1,21 +1,40 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package org.randychurunel.system.model;
 
-/**
- *
- * @author informatica
- */
 public class User {
-    private String name;
-    private String lastname;
-    private String email;
-    private String password;
-    private String user;
-    private String idUser;
+  private String name ;
+  private String lastName;
+  private String email;
+  private String pass;
+  private String user;
+  private String iduser
+          ;
 
+  public User()
+  {
+      
+  }
+  
+    public User(String name, String lastname, String email, String pass, String user, String iduser) {
+        this.name = name;
+        this.lastName = lastname;
+        this.email = email;
+        this.pass = pass;
+        this.user = user;
+        this.iduser = iduser;
+    }
+
+    public User(String name, String lastname, String email, String user , String pass) {
+        this.name = name;
+        this.lastName = lastname;
+        this.email = email;
+        this.user = user;
+        this.pass = pass;
+    }
+
+  
+    
+  
     public String getName() {
         return name;
     }
@@ -25,11 +44,11 @@ public class User {
     }
 
     public String getLastname() {
-        return lastname;
+        return lastName;
     }
 
     public void setLastname(String lastname) {
-        this.lastname = lastname;
+        this.lastName = lastname;
     }
 
     public String getEmail() {
@@ -40,12 +59,12 @@ public class User {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPass() {
+        return pass;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPass(String pass) {
+        this.pass = pass;
     }
 
     public String getUser() {
@@ -56,13 +75,13 @@ public class User {
         this.user = user;
     }
 
-    public String getIdUser() {
-        return idUser;
+    public String getIduser() {
+        return iduser;
     }
 
-    public void setIdUser(String idUser) {
-        this.idUser = idUser;
+    public void setIduser(String iduser) {
+        this.iduser = iduser;
     }
-    
-    
+  
+  
 }
